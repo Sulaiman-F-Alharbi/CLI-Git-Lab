@@ -1,0 +1,32 @@
+1Create a new directory and name it “LAB-1_CLI”:
+	mkdir LAB-1_CLI
+
+2.Go inside the “LAB-1_CLI” directory:
+	cd LAB-1_CLI
+
+3.Create a new file “whoAmI.txt”:
+	cd > whoAMI.txt
+
+4.Open the new file, and write an introduction about yourself. Then save the file:
+	echo Hello my name is Sulaiman and I currently a Tuwaiq Academy student in data science and machine learning bootcamp >> whoAMI.txt
+
+5.Show the content of the whoAmI.txt file:
+	type whoAMI.txt
+
+6.Create a directory and name it “DS”:
+	mkdir DS
+
+7.Go inside the “DS” directory:
+	cd DS
+
+8.Create a new file “toDelete1.txt” with the following text “hello everyone”:
+	echo "hello everyone" > toDelete1.txt
+
+9.Create another file “toDelete2.txt”:
+	cd > toDelete2.txt
+
+10.Go outside the current folder. Back to the “Lab-1_CLI” directory:
+	cd..
+
+11.Delete the directory “DS” and all the files inside it:
+	rmdir /s /q DS
